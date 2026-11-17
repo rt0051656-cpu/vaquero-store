@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff6a00"/><stop offset=".45" stop-color="#c2185b"/><stop offset="1" stop-color="#3b0f8c"/></linearGradient>
+<linearGradient id="d" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b8fbff"/><stop offset=".5" stop-color="#37b7ff"/><stop offset="1" stop-color="#6a4dff"/></linearGradient>
+<radialGradient id="sun" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffe27a"/><stop offset="1" stop-color="#ffe27a" stop-opacity="0"/></radialGradient>
+<symbol id="dia" viewBox="0 0 64 64"><path d="M32 58 4 24 16 8h32l12 16z" fill="url(#d)"/><path d="M4 24h56M16 8l16 50M48 8 32 58M24 24l8-16 8 16" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2" stroke-linejoin="round"/></symbol></defs>
+<rect width="480" height="300" fill="url(#bg)"/>
+<circle cx="340" cy="120" r="150" fill="url(#sun)"/>
+<path d="M0 300V210l60-40 50 30 70-60 60 50 60-40 80 70v80z" fill="#1a0838" opacity=".75"/>
+<path d="M0 300V250l80-30 70 20 90-40 90 40 150-20v80z" fill="#0b0612"/>
+<g stroke="#ffc83d" stroke-opacity=".25" stroke-width="2"><path d="M0 40 480 90M0 80 480 30"/></g>
+<use href="#dia" x="330" y="150" width="110" height="110" transform="rotate(10 385 205)"/>
+<use href="#dia" x="262" y="100" width="64" height="64" transform="rotate(-14 294 132)"/>
+<text x="28" y="150" font-family="Rajdhani,Impact,sans-serif" font-weight="700" font-size="74" fill="#fff" stroke="#1a0838" stroke-width="3" paint-order="stroke" letter-spacing="2">FREE</text>
+<text x="28" y="222" font-family="Rajdhani,Impact,sans-serif" font-weight="700" font-size="74" fill="#ffc83d" stroke="#1a0838" stroke-width="3" paint-order="stroke" letter-spacing="2">FIRE</text>
+<rect x="28" y="244" width="190" height="30" rx="15" fill="#2bff88"/>
+<text x="123" y="265" text-anchor="middle" font-family="Rajdhani,sans-serif" font-weight="700" font-size="18" letter-spacing="3" fill="#06260f">RECARGA DE 💎</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 520"><defs>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#8b3dff" stop-opacity=".75"/><stop offset="1" stop-color="#8b3dff" stop-opacity="0"/></radialGradient>
+<linearGradient id="d1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b8fbff"/><stop offset=".5" stop-color="#37b7ff"/><stop offset="1" stop-color="#6a4dff"/></linearGradient>
+<linearGradient id="d2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe27a"/><stop offset="1" stop-color="#ff8a1c"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2bff88"/><stop offset="1" stop-color="#ffc83d"/></linearGradient>
+<symbol id="dia" viewBox="0 0 64 64"><path d="M32 58 4 24 16 8h32l12 16z" fill="url(#d1)"/><path d="M4 24h56M16 8l16 50M48 8 32 58M24 24l8-16 8 16" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2" stroke-linejoin="round"/><path d="M16 8h32l-8 16H24z" fill="#fff" fill-opacity=".3"/></symbol></defs>
+<circle cx="280" cy="270" r="250" fill="url(#glow)"/>
+<circle cx="280" cy="270" r="200" fill="none" stroke="url(#ring)" stroke-width="3" stroke-dasharray="6 14" opacity=".7"/>
+<circle cx="280" cy="270" r="160" fill="none" stroke="#b46bff" stroke-width="2" opacity=".5"/>
+<!-- bolsa de recarga -->
+<g transform="translate(130 150)">
+<rect x="20" y="40" width="260" height="190" rx="28" fill="#1b0f33" stroke="url(#ring)" stroke-width="4"/>
+<rect x="20" y="40" width="260" height="56" rx="28" fill="#2a1650"/>
+<text x="150" y="78" text-anchor="middle" font-family="Rajdhani,Impact,sans-serif" font-weight="700" font-size="30" letter-spacing="4" fill="#ffc83d">RECARGA</text>
+<text x="150" y="170" text-anchor="middle" font-family="Rajdhani,Impact,sans-serif" font-weight="700" font-size="70" fill="#fff">6,160</text>
+<text x="150" y="208" text-anchor="middle" font-family="Rajdhani,Impact,sans-serif" font-weight="600" font-size="24" letter-spacing="6" fill="#2bff88">DIAMANTES</text>
+</g>
+<use href="#dia" x="70" y="90" width="120" height="120" transform="rotate(-14 130 150)"/>
+<use href="#dia" x="395" y="60" width="90" height="90" transform="rotate(12 440 105)"/>
+<use href="#dia" x="410" y="330" width="130" height="130" transform="rotate(-8 475 395)"/>
+<use href="#dia" x="40" y="340" width="80" height="80" transform="rotate(18 80 380)"/>
+<g fill="#ffc83d"><path d="M470 220l6 14 14 6-14 6-6 14-6-14-14-6 14-6z"/><path d="M96 280l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/></g>
+<g fill="#2bff88"><path d="M330 50l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/><path d="M500 300l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/></g>
+</svg>

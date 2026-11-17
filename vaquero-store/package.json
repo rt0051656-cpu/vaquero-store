@@ -1,0 +1,9 @@
+{
+  "name": "el-vaquero-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tienda de diamantes Free Fire con pedidos, comprobantes y panel admin",
+  "main": "server.js",
+  "scripts": { "start": "node --no-warnings server.js" },
+  "engines": { "node": ">=22.5" }
+}
